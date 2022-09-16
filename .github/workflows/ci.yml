@@ -16,7 +16,7 @@ jobs:
             cv_es.tex
             cv_pt.tex
       - name: Grab PDFs
-        run: mkdir -p pdf && mv ./cv_en.pdf ./cv_es.pdf ./cv_pt.pdf ./pdf/
+        run: mkdir -p pdf && mv ./cv-en.pdf ./cv-es.pdf ./cv-pt.pdf ./pdf/
       - name: Publish
         uses: peaceiris/actions-gh-pages@v3
         with:
