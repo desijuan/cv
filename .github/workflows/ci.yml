@@ -12,9 +12,9 @@ jobs:
         uses: xu-cheng/latex-action@v2
         with:
           root_file: |
-            cv_en.tex
-            cv_es.tex
-            cv_pt.tex
+            cv-en.tex
+            cv-es.tex
+            cv-pt.tex
       - name: Grab PDFs
         run: mkdir -p pdf && mv ./cv-en.pdf ./cv-es.pdf ./cv-pt.pdf ./pdf/
       - name: Publish
