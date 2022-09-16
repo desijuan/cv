@@ -1,0 +1,165 @@
+\documentclass[12pt, a4paper]{article}
+
+\usepackage[pdftex, top=1cm, bottom=1cm, left=1.5cm, right=1.5cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[sfdefault, lf]{carlito}
+\usepackage[brazilian]{babel}
+\usepackage{xcolor}
+\usepackage{multicol}
+\setlength\columnsep{12pt}
+\usepackage{enumitem}
+\usepackage{amssymb} % para \bigstar
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, urlcolor=teal}
+\urlstyle{same}
+
+\setlength{\parindent}{0pt}
+
+% VARS
+\newcommand{\email}{desijuan89@gmail.com}
+\newcommand{\github}{https://github.com/desijuan}
+\newcommand{\linkedin}{https://www.linkedin.com/in/desijuan}
+\newcommand{\icono}{$\bigstar\ $}
+\newcommand{\linea}{\vspace{-.5em}\rule[-1pt]{.975\columnwidth}{1pt}\par}
+
+% TITULOS
+\newcommand{\tit}[1]{\vspace{1.3em}{\Large\color{teal}\bfseries #1}\par\vspace{.35em}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\pagestyle{empty}
+\thispagestyle{empty}
+
+% HEADER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\rule{\textwidth}{1.5pt}\par
+\begin{minipage}[c]{.37\textwidth}
+  \vspace{7pt}
+  {\Huge\color{teal}\bfseries Juan Desimoni}\par
+  \vspace{4pt}
+  \url{\github}
+  \vspace{6pt}
+\end{minipage}
+\hfill
+\begin{minipage}[c]{.5\textwidth}
+  \raggedleft
+  Rua Dom José Pereira Alves 61, Niterói, RJ, Brasil\par
+  (+55) 21 9 9377 2334\par
+  \href{mailto:\email}{\email}
+\end{minipage}
+\rule{\textwidth}{1.5pt}\par
+\vspace{1pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{multicols}{2}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\tit{Objetivo}
+\icono Programador Web Full Stack.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\tit{Habilidades}
+\icono Desenvolvimento Web:
+\begin{itemize}[left=0pt, nosep, label={}]
+  \item Front-end: \textbf{HTML}, \textbf{CSS}, \textbf{Bootstrap}, \textbf{React}, \textbf{Next.js}.
+  \item Back-end: \textbf{Node.js}, \textbf{Express}.
+  \item Dev-Ops: \textbf{Docker}.
+\end{itemize}
+\smallskip
+
+\icono Programação geral: \textbf{JavaScript}, \textbf{Python}.\par
+\icono Bases de Dados: \textbf{SQL}, \textbf{MongoDB}, \textbf{Mongoose}.\par
+\icono Controle de Versões: \textbf{Git}, \textbf{GitHub}.\par
+\icono Linux: \textbf{Sys admin}, \textbf{Bash}.\par
+\icono Estatística e Ciencia de Dados: \textbf{R}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\tit{Projetos}
+\vspace{1pt}
+\textbf{\large Ledger}\par
+Aplicação web para dividir gastos entre grupos de pessoas.
+Servidor Express. Base de dados MongoDB.
+Cliente React.
+Servidor e cliente em plataformas diferentes. Se comunicam vía HTTP.
+
+\linea %%%%%%
+\icono Servidor \textbf{Express} (Node.js). API REST stateless.\par
+Base de dados \textbf{MongoDB} com Mongoose.
+
+\textbf{Repo:} \url{\github/ledger-server}\par
+\textbf{Demo:} \url{https://ledger-server.up.railway.app}
+
+\linea %%%%%
+\icono Cliente \textbf{React}. Responsivo com \textbf{Bootstrap}.
+
+\textbf{Repo:} \url{\github/ledger-client}\par
+\textbf{Demo:} \url{https://ledger-client.netlify.app}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\tit{Estudos}
+\textbf{\icono PhD em Matemática. Universidade Federal Fluminense (UFF)}, Niterói, RJ, Brasil. \textit{2018 -- agora}.\par
+\vspace{1pt}
+\textbf{\icono Bs \& Ms em Matemática. Universidad de Buenos Aires (UBA)}, Buenos Aires, Argentina. \textit{2011 -- 2018}.\par
+\vspace{1pt}
+\textbf{\icono Reuniões semanais com o professor Douglas Rodrigues (UFF), nas que estudamos temas de Estatística, Ciência de Dados e Machine Learning}. \textit{2021 -- agora}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\tit{Idiomas}
+\textbf{\icono Espanhol} nativo.\par
+\textbf{\icono Português} fluente.\par
+\textbf{\icono Inglês} avançado.\par
+\textbf{\icono Alemão} avançado.
+
+\vfill\null
+\columnbreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\tit{Experiencia Laboral}
+\textbf{\icono Instituto de Matemática e Estatística, UFF. Monitor}. \textit{2018 -- 2021}.
+\begin{itemize}[left=0pt, nosep, label={}]
+  \item 2021-2: Geometria Analítica e Cálculo Vetorial.
+  \item 2021-1: Geometria Analítica e Cálculo Vetorial.
+  \item 2020-2: Geometria Analítica e Cálculo Vetorial.
+  \item 2020-1: Geometria Analítica e Cálculo Vetorial.
+  \item 2018-2: Pre-cálculo, Fundamentos de Matemática para Estatística.
+  \item 2018-1: Pre-cálculo, Fundamentos de Matemática para Estatística.
+\end{itemize}
+
+\textbf{\icono Facultad de Ciencias Exactas y Naturales, UBA. Monitor}. \textit{2015 -- 2017}.
+\begin{itemize}[left=0pt, nosep, label={}]
+  \item 2017-1: Geometría Diferencial.
+  \item 2016-2: Taller de Cálculo Avanzado.
+  \item 2016-1: Análisis Matemático para Biología.
+  \item 2015-2: Análisis Matemático 2.
+  \item 2015-1: Análisis Matemático para Biología.
+\end{itemize}
+
+\textbf{\icono Ciclo Básico Común, UBA. Professor}. \textit{2015}.
+\begin{itemize}[left=0pt, nosep, label={}]
+  \item 2015-2: Matemática (51).
+\end{itemize}
+
+\textbf{\icono Instituto Ballester Deutsche Schule} (colégio secundário). \textbf{Professor}. \textit{2016}.
+\begin{itemize}[left=0pt, nosep, label={}]
+  \item 2016: Matemática 9no ano.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\tit{Participações em Congressos}
+Encontro Conjunto Brasil--Portugal em Matemática, 2022, UFBA, Salvador, BA
+$\bullet$ Poisson Conference, 2022, ICMAT, Madrid, Espanha
+$\bullet$ Poisson Advanced School, 2022, CRM, Barcelona, Espanha
+$\bullet$ Geometry in Algebra and Algebra in Geometry, 2020, UFF, Niterói, RJ
+$\bullet$ International Conference on Poisson Geometry, 2019, IMPA, RJ
+$\bullet$ School of Poisson Geometry, 2019, IMPA, RJ
+$\bullet$ VII Workshop on Poisson Geometry and Related Topics, 2019, UFPR, Curitiba, PR
+$\bullet$ 2018 International Congress of Mathematicians, Barra da Tijuca, RJ
+$\bullet$ Complex foliations, dynamics and geometry, 2018, UFF, Niterói, RJ
+$\bullet$ Geometry at the Frontier III -- School, 2018, UFRO, Temuco, Chile
+$\bullet$ Geometry at the Frontier III -- Workshop, 2018, UFRO, Pucón, Chile
+$\bullet$ Moduli Spaces in Algebraic Geometry and Applications, 2018, UNICAMP, Campinas, SP
+$\bullet$ Summer School on Geometry of Moduli Spaces of Curves (smr3215), 2018, ICTP, Trieste, Itália.
+\end{multicols}
+
+\end{document}
