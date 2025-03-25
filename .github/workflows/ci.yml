@@ -11,12 +11,9 @@ jobs:
       - name: Compile LaTeX
         uses: xu-cheng/latex-action@v2
         with:
-          root_file: |
-            cv-en.tex
-            cv-es.tex
-            cv-pt.tex
+          root_file: "cv.tex"
       - name: Grab PDFs
-        run: mkdir -p pdf && mv ./cv-en.pdf ./cv-es.pdf ./cv-pt.pdf ./pdf/
+        run: mkdir -p pdf && mv ./cv.pdf ./pdf/
       - name: Publish
         uses: peaceiris/actions-gh-pages@v3
         with:
