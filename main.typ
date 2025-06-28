@@ -24,7 +24,7 @@
 
 #show: modern-resume.with(
   author: "Juan Desimoni",
-  job-title: "Software Developer / Mathematician",
+  job-title: "Software Developer / Mathematics PhD",
   avatar: image("foto.jpg"),
   contact-options: (
     email: link("mailto:desijuan89@gmail.com")[desijuan89\@gmail.com],
@@ -77,12 +77,14 @@ algorithmic challenges.
 )
 
 == Languages
+
 #(
   "Spanish (native)", "Portuguese (fluent)", "English (fluent)", "German (advanced)",
 ).map(str => pill(str)).join()
 
 
 == Interests
+
 #(
   "Music", "Dance", "Science", "River Plate"
 ).map(str => pill(str)).join()
@@ -90,6 +92,7 @@ algorithmic challenges.
 #colbreak()
 
 == Skills
+
 #(
   "Zig", "C", "Kotlin", "Java", "Git", "Linux"
 ).map(str => pill(str, fill: true)).join()
