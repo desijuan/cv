@@ -61,8 +61,8 @@
 #experience-work(
   title: "Backend Software Developer",
   subtitle: [#link("https://codexutilities.com.br")[Codex Utilities - SP Brazil]],
-  date-from: "2022",
-  date-to: "2025",
+  date-from: "10/2022",
+  date-to: "8/2025",
   task-description: [
     - Developed features for a Kotlin/Java multiplatform backend system.
     - Collaborated with engineers to integrate backend with operational
